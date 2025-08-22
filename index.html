@@ -13,19 +13,25 @@
     <div class="container">
         <h1>Cotação de Criptomoedas</h1>
         <div class="form-group">
-            <label for="cryptoSelect">Escolha uma moeda:</label>
+            <label for="cryptoSelect">Escolha uma cripto:</label>
             <select id="cryptoSelect">
                 <option value="bitcoin">BTC</option>
                 <option value="ethereum">ETH</option>
                 <option value="monero">XMR</option>
-                <option value="Teather">USDT</option>
+                <option value="tether">USDT</option>
                 <option value="dogecoin">DOGE</option>
             </select>
             <button id="getPrice">Ver cotação</button>
             <div id="result"></div>
         </div>
+        <div class="form-group">
+            <label for="fiatSelect">Escolha a moeda fiduciaria:</label>
+            <select id="fiatSelect">
+                <option value="brl">Real (BRL)</option>
+                <option value="usd">Dólar (USD)</option>
+            </select>
+        </div>
     </div>
-    <script src="js/api.js"></script>
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
